@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightgray;
+    color: maroon;
+    padding: 20px;
+    z-index: 1000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.header-left h1 {
+    margin: 0;
+}
+
+.header-right ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin-right: 40px;
+}
+
+.header-right li {
+    margin-right: 20px;
+}
+
+.header-right a {
+    text-decoration: none;
+    color: maroon;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 110px;
+}
+
+#profil {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#foto {
+    max-width: 45%;
+    margin: 0;
+}
+
+.name{
+    border-bottom: 0;
+    font-size: 36px;
+    margin-top: 1px;
+}
+
+.bio{
+    font-size: 20px;
+    margin-top: 1%;
+    color: gray;
+}
+
+#data-diri {
+    max-width: 45%;
+    margin: 0;
+    margin-right: 40px;
+    margin-top: 35px;
+}
+
+#data-diri ul {
+    list-style: none;
+    padding: 0;
+}
+
+#data-diri ul li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#data-diri ul li a {
+    color: #0070c0;
+    text-decoration: none;
+}
+
+#about, #exp, #project {
+    padding-top: 20px;
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li p {
+    margin-top: 5px;
+}
+
+.logo{
+    font-size: 35px;
+    color: maroon;
+}
+
+.project-content{
+    max-width: 75%;
+    border-radius: 6px;
+}
+
+footer {
+    background-color: lightgray;
+    color: maroon;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 4px;
+}
