@@ -39,6 +39,15 @@ header {
     color: maroon;
 }
 
+.header-right a:hover{
+    padding: 4px;
+    margin: 4px;
+    border-radius: 4px;
+    background-color: maroon;
+    color: lightgray;
+    transition: .5s ease-in-out;
+}
+
 main {
     max-width: 800px;
     margin: 20px auto;
@@ -91,7 +100,6 @@ main {
 }
 
 #data-diri ul li a {
-    color: #0070c0;
     text-decoration: none;
 }
 
@@ -118,8 +126,22 @@ li p {
     color: maroon;
 }
 
+.logo:hover {
+    padding: auto;
+    margin: auto;
+    border-radius: 4px;
+    background-color: maroon;
+    color: white;
+    transition: .5s ease-in-out;
+}
+
 .project-content{
     max-width: 75%;
+    border-radius: 6px;
+}
+
+.exp-content{
+    max-width: 50%;
     border-radius: 6px;
 }
 
